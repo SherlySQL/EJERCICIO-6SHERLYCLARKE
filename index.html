@@ -1,0 +1,67 @@
+<!------------------------------------EJERCICIO 6 TABLA----------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+<!------------------------------------------HEAD----------------------------------------------------->    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen #1 WDEV Sherly</title>
+
+    <style>
+        table, th, td {
+            border:1px dotted black;
+            border-collapse: collapse;
+        }
+
+        table {
+            width: 70%;
+            margin: 40px auto;
+            background-color: yellow;
+        }
+
+        th {
+            color: red;
+            font-family: Tahoma;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .sinborde1 {
+            border-right: none;
+        }
+
+        .sinborde2 {
+            border-left: none;
+        }
+
+        .borderojo {
+            border-bottom: 2px dotted red;
+        }
+    </style>
+
+</head>
+
+<!-------------------------------------BODY ---------------------------------------------------->
+<body>
+    
+    <table>
+        <tr> 
+          <th class="sinborde1">EDAD</th> 
+          <th class="sinborde2">PESO</th>
+         </tr>
+        <tr> 
+          <td>40</td>
+          <td>78</td>
+        </tr>
+        <tr> 
+            <td>53</td>
+            <td>76</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="borderojo" >En el momento en que entiendo verdaderamente a mi enemigo, en el momento en que le entiendo lo suficientemente bien como para derrotarle, entonces, en ese preciso instante, tambien le quiero.</td>
+        </tr>
+      </table>
+
+</body>
+</html>
